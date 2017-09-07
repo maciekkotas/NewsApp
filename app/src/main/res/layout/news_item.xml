@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    style="@style/news_layout">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        style="@style/cardview"
+        card_view:cardCornerRadius="@dimen/corner_radius">
+
+        <RelativeLayout
+            style="@style/layout_style">
+
+            <ImageView
+                android:id="@+id/image_view"
+                style="@style/imageView"/>
+
+            <TextView
+                android:id="@+id/title_text_view"
+                style="@style/title"/>
+
+            <TextView
+                android:id="@+id/info_text_view"
+                style="@style/section"/>
+
+            <TextView
+                android:id="@+id/date_text_view"
+                style="@style/date"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

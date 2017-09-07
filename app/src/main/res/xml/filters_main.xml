@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:title="Filters">
+
+    <ListPreference
+        android:defaultValue="@string/settings_section_politics_value"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_section_key"
+        android:title="@string/settings_section_label"/>
+
+    <ListPreference
+        android:defaultValue="@string/settings_pages_10"
+        android:entries="@array/settings_pages"
+        android:entryValues="@array/settings_pages"
+        android:key="@string/settings_pages_number_key"
+        android:title="@string/settings_pages_number_label"/>
+
+
+</PreferenceScreen>
+
+

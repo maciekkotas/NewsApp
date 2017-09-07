@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+
+    <string name="settings_section_label">Section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+
+    <string name="settings_pages_number_label">Number of News</string>
+    <string name="settings_pages_number_key" translatable="false">pageNr</string>
+
+    <string name="settings_section_politics_label">Politics</string>
+    <string name="settings_section_politics_value">politics</string>
+
+    <string name="settings_section_science_label">Science</string>
+    <string name="settings_section_science_value">science</string>
+
+    <string name="settings_section_sport_label">Sport</string>
+    <string name="settings_section_sport_value">sport</string>
+
+    <string name="settings_pages_5">5</string>
+    <string name="settings_pages_10">10</string>
+    <string name="settings_pages_20">20</string>
+
+    <string name="settings_menu_item">Settings</string>
+
+
+</resources>
